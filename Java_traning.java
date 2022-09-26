@@ -13,7 +13,7 @@ class Training {
         int agePersonne = 18;
         agePersonne = 33;
 
-        agePersonne = agePersonne + 20;
+        agePersonne = agePersonne + 25;
 
         System.out.println("Age = " + agePersonne + " ans");
 
