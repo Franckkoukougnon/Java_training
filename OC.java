@@ -2,17 +2,10 @@ public class OC {
     static String exemple = "Hello";
 
     public static void main(String[] args) {
-        function1(args);
-        function2(args);
+        String spy = "Je suis un espion";
+        System.out.println(spy); // ok
+        System.out.println(exemple); // ok
 
     }
 
-    public static void function1(String[] args) {
-
-        System.out.println(exemple);
-    }
-
-    public static void function2(String[] args) {
-        System.out.println(exemple);
-    }
 }
