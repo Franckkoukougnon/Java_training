@@ -9,7 +9,7 @@ public class OC {
 
 class Exemple {
 
-    public static String text = "Hello";
+    public static String text = "Hello World";
 
     static void printText() {
         System.out.println(text);
