@@ -1,7 +1,12 @@
 public class boucles {
     public static void main(String[] args) {
-        for (int i = 0; i < 5; i++) {
-            System.out.println("Clap your hands");
+        int nbreArbre = 0;
+        while (nbreArbre < 10) {
+            nbreArbre += 1;
+            System.out.println("J'ai planté " + nbreArbre + "arbres");
+
         }
+        System.out.println("Je suis forestier");
     }
+
 }

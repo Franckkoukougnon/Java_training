@@ -1,18 +1,20 @@
 public class OC {
 
     public static void main(String[] args) {
-        System.out.println(Exemple.text);
+        int i = 0;
+        while (i < 15) {
+            i = randomNumber();
+            print(i);
 
+        }
     }
 
-}
+    static void print(int nombre) {
+        System.out.println("Nombre : " + Integer.toString(nombre));
+    }
 
-class Exemple {
-
-    public static String text = "Hello World";
-
-    static void printText() {
-        System.out.println(text);
+    static int randomNumber() {
+        return (int) (Math.random() * 20);
     }
 
 }
