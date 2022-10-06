@@ -1,12 +1,14 @@
 public class classtuto {
     public static void main(String[] args) {
+
+        // Declaration d'une class
         Voiture audi = new Voiture("Nissan", "Mael", 230123);
+        // Declaration d'une class fille qui herite de sa class mère
         Bateau toyota = new Bateau();
         toyota.decollage();
-
+        // Declaration d'une class fille qui herite de sa class mère
         Vehicule Nissan = new Vehicule();
         Nissan.decollage();
-
         System.out.println("la voiture est une " + audi.marque);
     }
 }
@@ -23,6 +25,7 @@ class Voiture {
     }
 }
 
+// Class mère
 class Vehicule {
     void decollage() {
         System.out.println("Vrooooom");
@@ -30,10 +33,21 @@ class Vehicule {
 
 }
 
+// class fille
 class Bateau extends Vehicule {
+
+    void decollage() {
+        super.decollage();
+        allumerFeux();
+    }
+
+    void allumerFeux() {
+        System.out.println("Feux Allumés !!!");
+    }
 
 }
 
+// class fille
 class Avion extends Vehicule {
 
 }
