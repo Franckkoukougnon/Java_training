@@ -10,9 +10,10 @@ public class list {
         System.out.println(myList);
         myList.add(1, 12);
         System.out.println(myList);
-        myList.set(0, 4);
+        myList.add(2, 25);
         System.out.println(myList);
-        myList.remove(1);
+        myList.remove(2);
         System.out.println(myList);
+
     }
 }
